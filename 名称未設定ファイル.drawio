@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T11:28:35.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="klqeR1OPFZVijsdZ6Vi8" version="14.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-11T11:28:57.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WNaV5hqSS1NwAbjXilTj" version="14.1.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="481" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,25 +45,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IOPMoTdBxAXCQsQnVEKV-16" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="290" y="460" width="290" height="100" as="geometry" />
+          <mxGeometry x="320" y="460" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IOPMoTdBxAXCQsQnVEKV-17" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IOPMoTdBxAXCQsQnVEKV-16">
-          <mxGeometry width="290" height="40" as="geometry" />
+          <mxGeometry width="260" height="44" as="geometry" />
         </mxCell>
         <mxCell id="IOPMoTdBxAXCQsQnVEKV-18" value="&lt;span&gt;新規提案・プロジェクト一覧&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0" vertex="1" parent="IOPMoTdBxAXCQsQnVEKV-17">
-          <mxGeometry width="290" height="40" as="geometry" />
+          <mxGeometry width="260" height="44" as="geometry" />
         </mxCell>
         <mxCell id="IOPMoTdBxAXCQsQnVEKV-19" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IOPMoTdBxAXCQsQnVEKV-16">
-          <mxGeometry y="40" width="290" height="30" as="geometry" />
+          <mxGeometry y="44" width="260" height="33" as="geometry" />
         </mxCell>
         <mxCell id="IOPMoTdBxAXCQsQnVEKV-20" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;タイトルをクリック&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="IOPMoTdBxAXCQsQnVEKV-19">
-          <mxGeometry width="290" height="30" as="geometry" />
+          <mxGeometry width="260" height="33" as="geometry" />
         </mxCell>
         <mxCell id="IOPMoTdBxAXCQsQnVEKV-21" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IOPMoTdBxAXCQsQnVEKV-16">
-          <mxGeometry y="70" width="290" height="30" as="geometry" />
+          <mxGeometry y="77" width="260" height="33" as="geometry" />
         </mxCell>
         <mxCell id="IOPMoTdBxAXCQsQnVEKV-22" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;タグを選択する&lt;/span&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="IOPMoTdBxAXCQsQnVEKV-21">
-          <mxGeometry width="290" height="30" as="geometry" />
+          <mxGeometry width="260" height="33" as="geometry" />
         </mxCell>
         <mxCell id="j5BV5RO29Ph5q24HOzqB-0" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="460" width="160" height="60" as="geometry" />
