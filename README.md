@@ -44,16 +44,16 @@ Rails 5.2.4
 - [ ] SNSログイン機能
 
 ## カタログ設計
-https://docs.google.com/spreadsheets/d/1QarMazm0V8BS-qANOKpb1HXgNEDyPufsvOfpb9NfRE4/edit#gid=0
+https://docs.google.com/spreadsheets/d/e/2PACX-1vRqVSkgMzEYhO3Q55r1VYW0oP68CUHS_8YqNlmYYpF-6ZLfTgY3M7u19xKSkVRdRnqvShrncaNOp-JZ/pubhtml
 
 ## テーブル定義
-https://docs.google.com/spreadsheets/d/1q_pe_E9GvUeGWUrViyDejw9MnJwPwINRYutINFH5Lg0/edit#gid=187787550
+https://docs.google.com/spreadsheets/d/e/2PACX-1vTChefi9-fdM72q9wIsmll3aKLKR106-yFp-IUqluMBMcXsm65pyOUDGduJCjhqUkGAmD5l2zeqQu15/pubhtml
 
 ## 画面遷移図
-https://docs.google.com/spreadsheets/d/1lzj2cUPg4r8MVvH0KEybdCnciPl06OOMxmE3O4-UG28/edit#gid=0
+https://docs.google.com/spreadsheets/d/e/2PACX-1vR2YlYCiR5SfQbLuZS9L510u0G9624ibTMqRqyMTqaYFHcRXNdoRrELONQT_QLY0nIjAaV-d4wTvN9U/pubhtml
 
 ## 画面ワイヤーフレーム
-https://docs.google.com/spreadsheets/d/1BZcZW4gN4798b8y_P3gPs5HXNigK1WUd7ORRgfcsYkk/edit#gid=478272680
+https://docs.google.com/spreadsheets/d/e/2PACX-1vS_UUS7VNY9v1dpvMowaxw6J5hyjFCVdKeaj3CpTsbfQPxwxbFcl2JbgZlduFpUA4fOQ7HGmiBPkJpj/pubhtml
 
 ## 使用予定Gem
 * devise
