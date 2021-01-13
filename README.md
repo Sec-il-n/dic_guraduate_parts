@@ -64,3 +64,11 @@ https://docs.google.com/spreadsheets/d/1BZcZW4gN4798b8y_P3gPs5HXNigK1WUd7ORRgfcs
 * fog-aws
 * jquery-rails
 * turbolinks
+
+## 使用技術
+- 就職Term
+  - aws EC2、S3の使用
+  - Deviseを使用したログイン機能の実装
+  - Ajaxを使用したコメント投稿/表示機能
+- カリキュラム外
+　- ActionCableを使用したメッセージ機能
