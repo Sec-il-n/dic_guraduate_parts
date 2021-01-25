@@ -23,6 +23,10 @@ ja:
           restrict_dependent_destroy:
             has_one: "%{record}が存在しているので削除できません"
             has_many: "%{record}が存在しているので削除できません"
+        contact:
+          attributes:
+            content:
+              blank: を入力してください
     date:
       abbr_day_names:
       - 日
@@ -154,6 +158,7 @@ ja:
         header:
           one: "%{model}にエラーが発生しました"
           other: "%{model}に%{count}個のエラーが発生しました"
+
     helpers:
       select:
         prompt: 選択してください

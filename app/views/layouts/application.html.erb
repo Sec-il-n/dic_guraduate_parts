@@ -5,10 +5,8 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%# <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%# <%= javascript_include_tag 'application' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload'%>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
@@ -18,19 +16,16 @@
         <nav>
           <ul>
             <% if user_signed_in? %>
-              <div data-turbolinks="false">
-                <%= link_to t('.logout'), destroy_user_session_path(current_user.id), method: :delete, class:'right' %>
-              </div>
-              <%# <%= link_to t('.logout'), destroy_user_session_path(current_user.id), method: :delete, data: {"turbolinks" => false}, class:'right' %>
-              <%= link_to t('.edit account'),  edit_user_registration_path(current_user.id), class:'right' %>
+              <%= link_to t('.logout'), destroy_user_session_path(current_user.id), remote: true, method: :delete, class:'right' %>
+              <%= link_to t('.edit account'),  edit_user_registration_path(current_user.id), remote: true, class:'right' %>
               <%= link_to t('.post suggest'), new_suggest_path, class:'right' %>
               <%= link_to t('.index'), suggests_path, class:'right' %>
               <%= link_to t('.participants'), participants_path %>
 
               <% if current_user.admin? %>
                 <%= link_to t('.management screen'), admin_users_path, class:'right' %>
-              <% end %>
 
+              <% end %>
             <% else %>
               <%= link_to t('.login'), new_user_session_path, class:'right' %>
               <%= link_to t('.register'), new_user_registration_path, class:'right' %>
@@ -47,6 +42,13 @@
     <% if @suggest && @suggest.errors.any? %>
       <p class="text-danger bg-danger"><%= @suggest.errors.count %> 件のエラーがあります。</p>
       <% @suggest.errors.full_messages.each do |msg| %>
+        <p class="text-danger bg-warning"><%= msg %></p>
+      <% end %>
+    <% end %>
+
+    <% if @contact && @contact.errors.any? %>
+      <p class="text-danger bg-danger"><%= @contact.errors.count %> 件のエラーがあります。</p>
+      <% @contact.errors.full_messages.each do |msg| %>
         <p class="text-danger bg-warning"><%= msg %></p>
       <% end %>
     <% end %>

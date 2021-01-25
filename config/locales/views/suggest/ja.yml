@@ -93,3 +93,6 @@ ja:
         show: 新規提案・プロジェクト詳細
         delete: 削除する
         confirmation: 削除しますか？
+  contacts:
+    create:
+      contact created: お問い合わせを受け付けました

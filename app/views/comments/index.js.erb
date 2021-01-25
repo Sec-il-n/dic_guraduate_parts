@@ -1,3 +1,4 @@
 // showのrender部
-$("#comment-area").html("<%= j(render 'index', { comments: @comment.suggest.comments }) %>")
+$("#comment-area").html("<%= j(render 'index', { comments: @comment.suggest.comments.recent }) %>")
+// ↓だと書き換わる部分が降順にならない　@comment.suggest.comments  +   renderだと書き換えでなく追記になってる？
 $("textarea").val('')

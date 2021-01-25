@@ -1,3 +1,5 @@
+<p><%= notice %></p>
+<p><%= danger %></p>
 <%= comments.count %>件コメント
 <!-- コメント二件 -->
 <h6 class="more" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">もっと見る....</h6>
@@ -6,16 +8,16 @@
   <%# コメントない場合 %>
   <% unless comment.id.nil? %>
     <li>
-      <div class="">
-        <div class="">
+      <div class="comment-box" data-no-turbolink>
+        <div class="comment-avatar">
           <%# <%= attachment_image_tag....gemが必要 %>
           <%= image_tag comment.user.user_image.url if comment.user.user_image.present? %>
         </div>
-        <div class="">
+        <div class="comment-text">
           <p>
             <%= link_to "@#{comment.user.user_name}", user_path(comment.user.id) %>
           </p>
-          <div class="">
+          <div class="comment-entry">
             <%= comment.text %>
             <% if current_user.admin? && comment.user == current_user %>
               <%= link_to t('dictionary.words.destroy'), suggest_comment_path(comment.suggest, comment), method: 'delete', data: { confirm: t('.confirmation') }, remote: true, class: 'btn btn-default btn-sm' %>
@@ -29,7 +31,7 @@
 
             <% end %>
           </div>
-          <span class="">
+          <span class="comment-date pull-right">
             <%= comment.created_at.strftime('%Y/%m/%d %H:%M:%S') %>
           </span>
         </div>

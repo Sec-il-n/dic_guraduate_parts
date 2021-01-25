@@ -1,14 +1,16 @@
 class CommentsController < ApplicationController
   before_action :set_comment, only: %i[edit, update, destroy]
   def create
+    @suggest = Suggest.find_by(id: params[:suggest_id])
     #投稿に紐づいたコメントを作成(idをi含んだ形でインスタンスを作成)
     @comment = current_user.comments.build(params_comment)
     begin
       @comment.save!
-    # render 'index'
+      render 'index'#create & form 非同期->index.jsが呼ばれる。消すと動かない
     rescue => e
       puts e.class
-      redirect_to _path, danger: t('.create comment faild')
+      # format.html { redirect_to admin_users_path, danger: t('.create comment faild') }
+      redirect_to suggest_path(comment.suggest.id), danger: t('.create comment faild')
     end
   end
   def edit
@@ -24,9 +26,9 @@ class CommentsController < ApplicationController
         redirect_to admin_users_path, danger: t('.delete faild')
       end
       flash[:notice] = t('.deleted')
-      # render 'index'
+      render 'index'
     end
-
+# 現状　destroyはコメント部のみ反映されるが二重で出る、createは動かない
   end
   private
   def set_comment

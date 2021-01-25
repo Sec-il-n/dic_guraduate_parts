@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   }
   resources :users, only:[:show]
   namespace :admin do
-    resources :users#, only:[:edit, :update, :destroy]
+    resources :users
   end
 
   resources :suggests do
@@ -33,6 +33,8 @@ Rails.application.routes.draw do
 
   resources :proprietorships
   resources :participants, only:[:create, :index, :destroy]
+
+  resources :contacts, only:[:new, :create]
 
   mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
 end
