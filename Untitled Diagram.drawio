@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T21:02:10.288Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="2ZBptZQ_0yJjaBTVsmNg" version="14.4.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-11T21:05:09.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="7kyOGT2vhXKVDvHiUFUX" version="14.4.2" type="github" pages="4">
   <diagram id="e63HznIYeLBv3h2SVA6l" name="suggest_1">
     <mxGraphModel dx="635" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2126,7 +2126,7 @@
         <mxCell id="kyZ5LgrkVOth2djTFoN1-33" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-32">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kyZ5LgrkVOth2djTFoN1-34" value="profile_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-32">
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-34" value="address_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-32">
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kmdb2volaH-e6lYdDWLC-3" value="pictures" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
@@ -2517,7 +2517,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rFHIU5YxAjDDpTxhXHWa-0" value="profiles" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="190" y="940" width="175" height="120" as="geometry" />
+          <mxGeometry x="190" y="990" width="175" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rFHIU5YxAjDDpTxhXHWa-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rFHIU5YxAjDDpTxhXHWa-0">
           <mxGeometry y="30" width="175" height="30" as="geometry" />
@@ -2551,9 +2551,6 @@
         </mxCell>
         <mxCell id="rFHIU5YxAjDDpTxhXHWa-29" value="has_many :plofiles, as:&amp;nbsp; :plofilable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
           <mxGeometry x="70" y="660" width="190" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="rFHIU5YxAjDDpTxhXHWa-30" value="has_many :plofiles, as:&amp;nbsp; :plofilable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="565" y="585" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rFHIU5YxAjDDpTxhXHWa-34" value="" style="endArrow=ERzeroToOne;html=1;rounded=0;fontColor=#000000;endFill=1;startArrow=ERone;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="FmZM4_d29XYeNaQaoeB1-1" source="faORWVLrbRKVmhVICKJv-4">
           <mxGeometry relative="1" as="geometry">
@@ -2589,9 +2586,6 @@
               <mxPoint x="310" y="814" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="rFHIU5YxAjDDpTxhXHWa-41" value="&lt;b&gt;belongs_to&lt;/b&gt; :imageable, polymorphic: true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="5" y="200" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kyZ5LgrkVOth2djTFoN1-7" value="giosoded_by :address" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;fontStyle=1" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
           <mxGeometry x="910" y="690" width="140" height="20" as="geometry" />
@@ -2653,20 +2647,8 @@
         <mxCell id="kyZ5LgrkVOth2djTFoN1-37" value="phone_number" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-35">
           <mxGeometry x="30" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kyZ5LgrkVOth2djTFoN1-40" value="has_many :pictures, as:&amp;nbsp; :imageable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="560" y="605" width="210" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="kyZ5LgrkVOth2djTFoN1-41" value="has_many :pictures, as:&amp;nbsp; :imageable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
           <mxGeometry x="410" y="10" width="210" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="kyZ5LgrkVOth2djTFoN1-42" value="他のあらゆるモデルから利用できる、(デザインパターンで言うところの)インターフェイスを設定する宣言とみなすことができる" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="-170" y="220" width="700" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="kyZ5LgrkVOth2djTFoN1-43" value="@picture.imageable　親の取得" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="-120" y="240" width="180" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="kyZ5LgrkVOth2djTFoN1-44" value="@clinic.pictures&amp;nbsp; 子の取得" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="-120" y="290" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kyZ5LgrkVOth2djTFoN1-45" value="has_one :picture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
           <mxGeometry x="415" y="-20" width="100" height="20" as="geometry" />
@@ -2674,11 +2656,35 @@
         <mxCell id="kyZ5LgrkVOth2djTFoN1-46" value="コレクションでは無いので不使用が良い？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
           <mxGeometry x="530" y="-20" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kyZ5LgrkVOth2djTFoN1-47" value="基本１アドレスなので不使用が良い？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
-          <mxGeometry x="570" y="630" width="220" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="kyZ5LgrkVOth2djTFoN1-48" value="&lt;span style=&quot;font-family: &amp;#34;roboto&amp;#34; , &amp;#34;robotodraft&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 13px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ネスト使うよりは良い？&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
           <mxGeometry x="770" y="-20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-52" value="" style="group" vertex="1" connectable="0" parent="FmZM4_d29XYeNaQaoeB1-1">
+          <mxGeometry x="400" y="1010" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="rFHIU5YxAjDDpTxhXHWa-30" value="has_many :plofiles, as:&amp;nbsp; :plofilable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-52">
+          <mxGeometry x="5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-40" value="has_many :pictures, as:&amp;nbsp; :imageable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-52">
+          <mxGeometry y="20" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-47" value="基本１アドレスなので不使用が良い？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-52">
+          <mxGeometry x="10" y="45" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-53" value="" style="group" vertex="1" connectable="0" parent="FmZM4_d29XYeNaQaoeB1-1">
+          <mxGeometry x="-310" y="190" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rFHIU5YxAjDDpTxhXHWa-41" value="&lt;b&gt;belongs_to&lt;/b&gt; :imageable, polymorphic: true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-53">
+          <mxGeometry width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-42" value="他のあらゆるモデルから利用できる、(デザインパターンで言うところの)インターフェイスを設定する宣言とみなすことができる" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-53">
+          <mxGeometry y="20" width="700" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-43" value="@picture.imageable　親の取得" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-53">
+          <mxGeometry x="50" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kyZ5LgrkVOth2djTFoN1-44" value="@clinic.pictures&amp;nbsp; 子の取得" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="kyZ5LgrkVOth2djTFoN1-53">
+          <mxGeometry x="50" y="90" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
