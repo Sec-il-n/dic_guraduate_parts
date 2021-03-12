@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T04:28:37.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="BtymdvWa0KEy67gnIHtN" version="14.4.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-03-12T11:53:43.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="EgbjFXrr_6wsLxFwNTPd" version="14.4.2" type="github" pages="4">
   <diagram id="e63HznIYeLBv3h2SVA6l" name="suggest_1">
     <mxGraphModel dx="635" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2589,6 +2589,9 @@
         </mxCell>
         <mxCell id="kyZ5LgrkVOth2djTFoN1-54" value="has_many :addresses, as:&amp;nbsp; :plofilable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
           <mxGeometry x="660" y="480" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h8V8-RgXqVTw747xl3Tt-0" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;" vertex="1" parent="FmZM4_d29XYeNaQaoeB1-1">
+          <mxGeometry x="40" y="400" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
